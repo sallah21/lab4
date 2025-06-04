@@ -44,13 +44,4 @@ generateReports ${TargetName}
 write_verilog ${ResultsDir}/${DesignName}_${TargetName}.v
 
 #### Zapisanie bloku i biblioteki
-current_block
-get_blocks -all
-list_blocks
-save_block
-save_lib
-close_blocks
-close_lib
-
-exit
 

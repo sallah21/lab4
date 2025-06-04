@@ -38,20 +38,12 @@ set_app_options -name compile.flow.high_effort_timing -value 2
 compile_fusion -to logic_opto
 
 #### Zebranie raportow
-set TargetName "logic_opto_general_timing"
+set TargetName "logic_opto_general_timing_2"
 generateReports ${TargetName}
 
 #### Generacja netlisty na poziomie bramek
 write_verilog ${ResultsDir}/${DesignName}_${TargetName}.v
 
 #### Zapisanie bloku i biblioteki
-current_block
-get_blocks -all
-list_blocks
-save_block
-save_lib
-close_blocks
-close_lib
 
-exit
 

@@ -2,7 +2,7 @@
 Report : qor
 Design : dut_toplevel
 Version: V-2023.12
-Date   : Wed Jun  4 14:20:01 2025
+Date   : Wed Jun  4 14:13:48 2025
 ****************************************
 
 
@@ -18,8 +18,8 @@ Scenario           'Normal_Slow'
 Timing Path Group  'clk'
 ----------------------------------------
 Levels of Logic:                     46
-Critical Path Length:              1.78
-Critical Path Slack:              -0.08
+Critical Path Length:              1.79
+Critical Path Slack:              -0.09
 Critical Path Clk Period:          2.00
 Total Negative Slack:             -0.21
 No. of Violating Paths:               4
@@ -28,9 +28,9 @@ No. of Violating Paths:               4
 Scenario           'Normal_Typical'
 Timing Path Group  'clk'
 ----------------------------------------
-Levels of Logic:                     48
-Critical Path Length:              1.28
-Critical Path Slack:               0.41
+Levels of Logic:                     44
+Critical Path Length:              1.30
+Critical Path Slack:               0.39
 Critical Path Clk Period:          2.00
 Total Negative Slack:              0.00
 No. of Violating Paths:               0
@@ -51,8 +51,8 @@ Scenario           'PowerSave_Slow'
 Timing Path Group  'clk'
 ----------------------------------------
 Levels of Logic:                     46
-Critical Path Length:              1.84
-Critical Path Slack:               7.49
+Critical Path Length:              1.85
+Critical Path Slack:               7.48
 Critical Path Clk Period:         10.00
 Total Negative Slack:              0.00
 No. of Violating Paths:               0
@@ -61,9 +61,9 @@ No. of Violating Paths:               0
 Scenario           'PowerSave_Typical'
 Timing Path Group  'clk'
 ----------------------------------------
-Levels of Logic:                     48
-Critical Path Length:              1.31
-Critical Path Slack:               8.01
+Levels of Logic:                     44
+Critical Path Length:              1.32
+Critical Path Slack:               7.99
 Critical Path Clk Period:         10.00
 Total Negative Slack:              0.00
 No. of Violating Paths:               0
@@ -77,11 +77,11 @@ Cell Count
 ----------------------------------------
 Hierarchical Cell Count:              0
 Hierarchical Port Count:              0
-Leaf Cell Count:                   1243
-Buf/Inv Cell Count:                  72
+Leaf Cell Count:                   1174
+Buf/Inv Cell Count:                  21
 Buf Cell Count:                       0
-Inv Cell Count:                      72
-Combinational Cell Count:           904
+Inv Cell Count:                      21
+Combinational Cell Count:           835
    Single-bit Isolation Cell Count:                        0
    Multi-bit Isolation Cell Count:                         0
    Isolation Cell Banking Ratio:                           0.00%
@@ -104,25 +104,25 @@ Macro Count:                          0
 
 Area
 ----------------------------------------
-Combinational Area:              478.30
+Combinational Area:              473.13
 Noncombinational Area:           431.12
-Buf/Inv Area:                     12.79
+Buf/Inv Area:                      3.73
 Total Buffer Area:                 0.00
-Total Inverter Area:              12.79
+Total Inverter Area:               3.73
 Macro/Black Box Area:              0.00
 Net Area:                             0
-Net XLength:                    5052.03
-Net YLength:                    5258.85
+Net XLength:                    5016.47
+Net YLength:                    5192.30
 ----------------------------------------
-Cell Area (netlist):                            909.42
-Cell Area (netlist and physical only):          909.42
-Net Length:                    10310.88
+Cell Area (netlist):                            904.25
+Cell Area (netlist and physical only):          904.25
+Net Length:                    10208.77
 
 
 Design Rules
 ----------------------------------------
-Total Number of Nets:              1656
-Nets with Violations:                 2
+Total Number of Nets:              1605
+Nets with Violations:                 1
 Max Trans Violations:                 0
 Max Cap Violations:                   0
 ----------------------------------------
