@@ -2,7 +2,7 @@
 Report : design
 Design : dut_toplevel
 Version: V-2023.12
-Date   : Wed Jun  4 13:11:05 2025
+Date   : Wed Jun  4 13:38:37 2025
 ****************************************
 
 Total number of std cells in library : 881
@@ -16,33 +16,33 @@ Total number of ICGs                 : 30
 
 Cell Instance Type  Count         Area
 --------------------------------------
-TOTAL LEAF CELLS     1174      904.250
-unit                 1174      904.250
-Standard cells       1174      904.250
-unit                 1174      904.250
+TOTAL LEAF CELLS     1174      905.227
+unit                 1174      905.227
+Standard cells       1174      905.227
+unit                 1174      905.227
 Hard macro cells        0        0.000
-unit                 1174      904.250
+unit                 1174      905.227
 Soft macro cells        0        0.000
-unit                 1174      904.250
+unit                 1174      905.227
 Always on cells         0        0.000
-unit                 1174      904.250
+unit                 1174      905.227
 Physical only           0        0.000
-unit                 1174      904.250
+unit                 1174      905.227
 Fixed cells             0        0.000
-unit                 1174      904.250
-Moveable cells       1174      904.250
-unit                 1174      904.250
-Placed cells         1174      904.250
-unit                 1174      904.250
-Sequential            339      431.124
-unit                 1174      904.250
+unit                 1174      905.227
+Moveable cells       1174      905.227
+unit                 1174      905.227
+Placed cells         1174      905.227
+unit                 1174      905.227
+Sequential            339      431.568
+unit                 1174      905.227
 Buffer/inverter        21        3.730
-unit                 1174      904.250
+unit                 1174      905.227
 ICG cells              11        8.791
-unit                 1174      904.250
+unit                 1174      905.227
 
 Logic Hierarchies                    : 0
-Design Masters count                 : 40
+Design Masters count                 : 43
 Total Flat nets count                : 1605
 Total FloatingNets count             : 1
 Total no of Ports                    : 170
@@ -54,9 +54,9 @@ List of Modes                        : Normal, PowerSave
 List of Corners                      : Fast, Typical, Slow
 List of Scenarios                    : Normal_Fast, Normal_Slow, Normal_Typical, PowerSave_Fast, PowerSave_Slow, PowerSave_Typical
 
-Core Area                            : 1270.506
-Chip Area                            : 1270.506
-Total Site Row Area                  : 1270.506
+Core Area                            : 1792.961
+Chip Area                            : 4146.841
+Total Site Row Area                  : 1792.961
 Number of Blockages                  : 0
 Total area of Blockages              : 0.000
 Number of Power Domains              : 1

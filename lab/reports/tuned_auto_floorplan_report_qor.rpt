@@ -2,7 +2,7 @@
 Report : qor
 Design : dut_toplevel
 Version: V-2023.12
-Date   : Wed Jun  4 13:11:05 2025
+Date   : Wed Jun  4 13:38:37 2025
 ****************************************
 
 
@@ -21,14 +21,14 @@ Levels of Logic:                     46
 Critical Path Length:              1.79
 Critical Path Slack:              -0.09
 Critical Path Clk Period:          2.00
-Total Negative Slack:             -0.21
+Total Negative Slack:             -0.22
 No. of Violating Paths:               4
 ----------------------------------------
 
 Scenario           'Normal_Typical'
 Timing Path Group  'clk'
 ----------------------------------------
-Levels of Logic:                     44
+Levels of Logic:                     46
 Critical Path Length:              1.30
 Critical Path Slack:               0.39
 Critical Path Clk Period:          2.00
@@ -52,7 +52,7 @@ Timing Path Group  'clk'
 ----------------------------------------
 Levels of Logic:                     46
 Critical Path Length:              1.85
-Critical Path Slack:               7.48
+Critical Path Slack:               7.49
 Critical Path Clk Period:         10.00
 Total Negative Slack:              0.00
 No. of Violating Paths:               0
@@ -61,7 +61,7 @@ No. of Violating Paths:               0
 Scenario           'PowerSave_Typical'
 Timing Path Group  'clk'
 ----------------------------------------
-Levels of Logic:                     44
+Levels of Logic:                     46
 Critical Path Length:              1.32
 Critical Path Slack:               7.99
 Critical Path Clk Period:         10.00
@@ -104,25 +104,25 @@ Macro Count:                          0
 
 Area
 ----------------------------------------
-Combinational Area:              473.13
-Noncombinational Area:           431.12
+Combinational Area:              473.66
+Noncombinational Area:           431.57
 Buf/Inv Area:                      3.73
 Total Buffer Area:                 0.00
 Total Inverter Area:               3.73
 Macro/Black Box Area:              0.00
 Net Area:                             0
-Net XLength:                    5016.47
-Net YLength:                    5192.30
+Net XLength:                    6657.59
+Net YLength:                    8380.35
 ----------------------------------------
-Cell Area (netlist):                            904.25
-Cell Area (netlist and physical only):          904.25
-Net Length:                    10208.77
+Cell Area (netlist):                            905.23
+Cell Area (netlist and physical only):          905.23
+Net Length:                    15037.94
 
 
 Design Rules
 ----------------------------------------
 Total Number of Nets:              1605
-Nets with Violations:                 1
+Nets with Violations:                 0
 Max Trans Violations:                 0
 Max Cap Violations:                   0
 ----------------------------------------

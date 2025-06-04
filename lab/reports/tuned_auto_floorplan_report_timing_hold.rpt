@@ -8,11 +8,11 @@ Report : timing
         -report_by design
 Design : dut_toplevel
 Version: V-2023.12
-Date   : Wed Jun  4 13:11:05 2025
+Date   : Wed Jun  4 13:38:37 2025
 ****************************************
 
-  Startpoint: math_wrapper_INST/out_data_r_reg[23] (rising edge-triggered flip-flop clocked by clk)
-  Endpoint: dut_fifo_INST/fifo_data_r_reg[1][26] (rising edge-triggered flip-flop clocked by clk)
+  Startpoint: math_wrapper_INST/out_data_r_reg[7] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: dut_fifo_INST/fifo_data_r_reg[1][10] (rising edge-triggered flip-flop clocked by clk)
   Mode: Normal
   Corner: Fast
   Scenario: Normal_Fast
@@ -24,17 +24,17 @@ Date   : Wed Jun  4 13:11:05 2025
   clock clk (rise edge)                            0.00      0.00
   clock network delay (ideal)                      0.00      0.00
 
-  math_wrapper_INST/out_data_r_reg[23]/CK (SAEDRVT14_FSDPRBQ_V2LP_1)
+  math_wrapper_INST/out_data_r_reg[7]/CK (SAEDRVT14_FSDPRBQ_V2LP_1)
                                                    0.00      0.00 r
-  math_wrapper_INST/out_data_r_reg[23]/Q (SAEDRVT14_FSDPRBQ_V2LP_1)
+  math_wrapper_INST/out_data_r_reg[7]/Q (SAEDRVT14_FSDPRBQ_V2LP_1)
                                                    0.03      0.03 f
-  dut_fifo_INST/fifo_data_r_reg[1][26]/D (SAEDRVT14_FSDPRBQ_V2LP_1)
+  dut_fifo_INST/fifo_data_r_reg[1][10]/D (SAEDRVT14_FSDPRBQ_V2LP_1)
                                                    0.00      0.03 f
   data arrival time                                          0.03
 
   clock clk (rise edge)                            0.00      0.00
   clock network delay (ideal)                      0.00      0.00
-  dut_fifo_INST/fifo_data_r_reg[1][26]/CK (SAEDRVT14_FSDPRBQ_V2LP_1)
+  dut_fifo_INST/fifo_data_r_reg[1][10]/CK (SAEDRVT14_FSDPRBQ_V2LP_1)
                                                    0.00      0.00 r
   library hold time                                0.01      0.01
   data required time                                         0.01
