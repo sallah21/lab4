@@ -30,11 +30,14 @@ read_sdc -echo ${SdcFile}
 #### MCMM
 source -echo ${SetupDir}/mcmm_setup.tcl
 
+#### Optymisation takie sytuation
+set_app_options -name compile.flow.high_effort_area -value true
+
 #### Wstepne mapowanie
 compile_fusion -to logic_opto
 
 #### Zebranie raportow
-set TargetName "logic_opto_general"
+set TargetName "logic_opto_general_area"
 generateReports ${TargetName}
 
 #### Generacja netlisty na poziomie bramek
