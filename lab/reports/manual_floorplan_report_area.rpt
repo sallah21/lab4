@@ -3,7 +3,7 @@ Information: The command 'report_area' cleared the undo history. (UNDO-016)
 Report : area
 Design : dut_toplevel
 Version: V-2023.12
-Date   : Wed Jun  4 13:38:45 2025
+Date   : Wed Jun  4 14:34:34 2025
 ****************************************
 
 Number of ports:                          170

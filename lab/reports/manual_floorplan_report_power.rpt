@@ -1,15 +1,15 @@
 Information: Timer using 12 threads
-Information: Corner Slow: no PVT mismatches. (PVT-032)
-Information: Corner Fast: no PVT mismatches. (PVT-032)
 Information: Corner Typical: no PVT mismatches. (PVT-032)
+Information: Corner Fast: no PVT mismatches. (PVT-032)
+Information: Corner Slow: no PVT mismatches. (PVT-032)
 ****************************************
 Report : power
         -significant_digits 2
 Design : dut_toplevel
 Version: V-2023.12
-Date   : Wed Jun  4 13:38:41 2025
+Date   : Wed Jun  4 14:34:30 2025
 ****************************************
-Information: Activity propagation will be performed for scenario Normal_Slow.
+Information: Activity propagation will be performed for scenario Normal_Fast.
 Information: Activity propagation will be performed for scenario PowerSave_Typical.
 Warning: Cannot infer functionality of libcell 'saed14rvt_ff0p88v125c/SAEDRVT14_FDNRBSBQ_V2_0P5' and will be excluded from sequential mapping. (SQM-1061)
 Warning: Cannot infer functionality of libcell 'saed14rvt_ff0p88v125c/SAEDRVT14_FDNRBSBQ_V2_1' and will be excluded from sequential mapping. (SQM-1061)
@@ -37,8 +37,8 @@ Information: No single-bit representative was found for multibit lib cell 'saed1
 Warning: Found 8 multibit sequential library cells that have missing/added attributes or have restrictions that prevent them from banking. (SQM-1053)
 0 sequential multibit library cells have restrictions (dont_use or dont_touch).
 8 sequential multibit library cells have missing sequential mapping relevant attributes
-Information: Doing activity propagation for mode 'Normal' and corner 'Slow' with effort level 'medium'. (POW-024)
-Information: Timer-derived activity data is cached on scenario Normal_Slow (POW-052)
+Information: Doing activity propagation for mode 'Normal' and corner 'Fast' with effort level 'medium'. (POW-024)
+Information: Timer-derived activity data is cached on scenario Normal_Fast (POW-052)
 Infomation: Fast mode activity propagation power.rtl_activity_annotation setup is ignored. Always use accurate mode.
 Information: Running switching activity propagation with 12 threads!
 
@@ -49,10 +49,10 @@ Infomation: Fast mode activity propagation power.rtl_activity_annotation setup i
 Information: Running switching activity propagation with 12 threads!
 
  **** Information : No. of simulation cycles = 6 ****
-Information: Propagated activity on scenario Normal_Typical identical to that on Normal_Slow (POW-006)
+Information: Propagated activity on scenario Normal_Slow identical to that on Normal_Fast (POW-006)
 Information: Propagated activity on scenario PowerSave_Slow identical to that on PowerSave_Typical (POW-006)
 Information: Propagated activity on scenario PowerSave_Fast identical to that on PowerSave_Slow (POW-006)
-Information: Propagated activity on scenario Normal_Fast identical to that on Normal_Slow (POW-006)
+Information: Propagated activity on scenario Normal_Typical identical to that on Normal_Fast (POW-006)
 Information: The stitching and editing of coupling caps is turned OFF for design 'dut_toplevel.dlib:dut_toplevel/manual_floorplan.design'. (TIM-125)
 Information: Design Average RC for design dut_toplevel  (NEX-011)
 Information: r = 2.639551 ohm/um, via_r = 0.903480 ohm/cut, c = 0.112890 ff/um, cc = 0.000000 ff/um (X dir) (NEX-017)

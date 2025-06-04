@@ -109,7 +109,7 @@ read_sdc -echo ${SdcFile}
 source -echo ${SetupDir}/mcmm_setup.tcl 
  
 #### Read floorplan from DEF 
-read_def ${ResultsDir}/manual_floorplan.def 
+read_def ${ResultsDir}/auto_floorplan.def 
  
 #### Insert Boundary and TAP cells in the design 
 source -echo ../scripts/insert_special_physical_cells.tcl 
@@ -117,7 +117,7 @@ source -echo ../scripts/insert_special_physical_cells.tcl
 #### Create Power/Ground Network 
 source -echo ../scripts/create_pg_network.tcl 
  
-save_block 
-save_lib 
-close_blocks 
-close_lib
+# save_block 
+# save_lib 
+# close_blocks 
+# close_lib
