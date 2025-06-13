@@ -1,5 +1,5 @@
 ##########################
-### Makefile for Task2 ###
+### Makefile for task3 ###
 ##########################
 
 help:
@@ -11,7 +11,22 @@ help:
 
 run:
 	test -d ./logs	|| mkdir ./logs
-	fc_shell  -no_log -f ../scripts/task2.tcl | tee ./logs/task2.log
+	fc_shell  -no_log -f ../scripts/task3.tcl | tee ./logs/task3.log
+	cp -rf ../../results/*.v ../../solution
+
+run_power:
+	test -d ./logs	|| mkdir ./logs
+	fc_shell  -no_log -f ../scripts/task3_power.tcl | tee ./logs/task3_power.log
+	cp -rf ../../results/*.v ../../solution
+
+run_timing:
+	test -d ./logs	|| mkdir ./logs
+	fc_shell  -no_log -f ../scripts/task3_timing.tcl | tee ./logs/task3_timing.log
+	cp -rf ../../results/*.v ../../solution
+
+run_area:
+	test -d ./logs	|| mkdir ./logs
+	fc_shell  -no_log -f ../scripts/task3_area.tcl | tee ./logs/task3_area.log
 	cp -rf ../../results/*.v ../../solution
 
 clean:
