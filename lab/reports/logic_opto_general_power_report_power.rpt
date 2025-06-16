@@ -6,26 +6,26 @@ Report : power
         -significant_digits 2
 Design : dut_toplevel
 Version: V-2023.12
-Date   : Wed Jun  4 14:19:59 2025
+Date   : Mon Jun 16 13:00:18 2025
 ****************************************
+Information: Activity propagation will be performed for scenario PowerSave_Fast.
 Information: Activity propagation will be performed for scenario Normal_Fast.
-Information: Activity propagation will be performed for scenario PowerSave_Typical.
+Information: Doing activity propagation for mode 'PowerSave' and corner 'Fast' with effort level 'medium'. (POW-024)
+Information: Timer-derived activity data is cached on scenario PowerSave_Fast (POW-052)
+Infomation: Fast mode activity propagation power.rtl_activity_annotation setup is ignored. Always use accurate mode.
+Information: Running switching activity propagation with 12 threads!
+
+ **** Information : No. of simulation cycles = 6 ****
 Information: Doing activity propagation for mode 'Normal' and corner 'Fast' with effort level 'medium'. (POW-024)
 Information: Timer-derived activity data is cached on scenario Normal_Fast (POW-052)
 Infomation: Fast mode activity propagation power.rtl_activity_annotation setup is ignored. Always use accurate mode.
 Information: Running switching activity propagation with 12 threads!
 
  **** Information : No. of simulation cycles = 6 ****
-Information: Doing activity propagation for mode 'PowerSave' and corner 'Typical' with effort level 'medium'. (POW-024)
-Information: Timer-derived activity data is cached on scenario PowerSave_Typical (POW-052)
-Infomation: Fast mode activity propagation power.rtl_activity_annotation setup is ignored. Always use accurate mode.
-Information: Running switching activity propagation with 12 threads!
-
- **** Information : No. of simulation cycles = 6 ****
-Information: Propagated activity on scenario Normal_Typical identical to that on Normal_Fast (POW-006)
-Information: Propagated activity on scenario PowerSave_Slow identical to that on PowerSave_Typical (POW-006)
-Information: Propagated activity on scenario PowerSave_Fast identical to that on PowerSave_Slow (POW-006)
+Information: Propagated activity on scenario PowerSave_Slow identical to that on PowerSave_Fast (POW-006)
+Information: Propagated activity on scenario PowerSave_Typical identical to that on PowerSave_Fast (POW-006)
 Information: Propagated activity on scenario Normal_Slow identical to that on Normal_Fast (POW-006)
+Information: Propagated activity on scenario Normal_Typical identical to that on Normal_Fast (POW-006)
 Information: The stitching and editing of coupling caps is turned OFF for design 'dut_toplevel.dlib:dut_toplevel/mcmm_and_logic_opto_general.design'. (TIM-125)
 Information: Design Average RC for design dut_toplevel  (NEX-011)
 Information: r = 2.636572 ohm/um, via_r = 0.894180 ohm/cut, c = 0.128928 ff/um, cc = 0.000000 ff/um (X dir) (NEX-017)
@@ -64,16 +64,16 @@ scaling for leakage power
 Supply nets:
 VDD (power) probability 1.00 (default)
 VSS (ground) probability 1.00 (default)
-Warning: Power table extrapolation (extrapolation mode) for port A1 on cell ctmi_2162 for parameter Tinp. Lowest table value = 0.003000, highest table value = 0.133000, value = 0.002575 (POW-046)
-Warning: Power table extrapolation (extrapolation mode) for port B1 on cell ctmi_2162 for parameter Tinp. Lowest table value = 0.003000, highest table value = 0.133000, value = 0.002460 (POW-046)
-Warning: Power table extrapolation (extrapolation mode) for port X on cell ctmi_2162 for parameter Tinp. Lowest table value = 0.003000, highest table value = 0.133000, value = 0.002575 (POW-046)
-Warning: Power table extrapolation (extrapolation mode) for port A2 on cell ctmi_2164 for parameter Tinp. Lowest table value = 0.003000, highest table value = 0.133000, value = 0.002689 (POW-046)
-Warning: Power table extrapolation (extrapolation mode) for port B2 on cell ctmi_2164 for parameter Tinp. Lowest table value = 0.003000, highest table value = 0.133000, value = 0.002518 (POW-046)
-Warning: Power table extrapolation (extrapolation mode) for port X on cell ctmi_2164 for parameter Tinp. Lowest table value = 0.003000, highest table value = 0.133000, value = 0.002689 (POW-046)
-Warning: Power table extrapolation (extrapolation mode) for port A2 on cell ctmi_2166 for parameter Tinp. Lowest table value = 0.003000, highest table value = 0.133000, value = 0.002613 (POW-046)
-Warning: Power table extrapolation (extrapolation mode) for port A1 on cell ctmi_2095 for parameter Tinp. Lowest table value = 0.003000, highest table value = 0.133000, value = 0.000000 (POW-046)
-Warning: Power table extrapolation (extrapolation mode) for port X on cell ctmi_2095 for parameter Tinp. Lowest table value = 0.003000, highest table value = 0.133000, value = 0.000000 (POW-046)
-Warning: Power table extrapolation (extrapolation mode) for port B2 on cell ctmi_2166 for parameter Tinp. Lowest table value = 0.003000, highest table value = 0.133000, value = 0.002480 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port A1 on cell ctmi_2151 for parameter Tinp. Lowest table value = 0.003000, highest table value = 0.133000, value = 0.002975 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port B1 on cell ctmi_2151 for parameter Tinp. Lowest table value = 0.003000, highest table value = 0.133000, value = 0.002327 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port X on cell ctmi_2151 for parameter Tinp. Lowest table value = 0.003000, highest table value = 0.133000, value = 0.002975 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port A1 on cell ctmi_2153 for parameter Tinp. Lowest table value = 0.003000, highest table value = 0.133000, value = 0.002651 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port B1 on cell ctmi_2153 for parameter Tinp. Lowest table value = 0.003000, highest table value = 0.133000, value = 0.002537 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port X on cell ctmi_2153 for parameter Tinp. Lowest table value = 0.003000, highest table value = 0.133000, value = 0.002651 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port A2 on cell ctmi_2155 for parameter Tinp. Lowest table value = 0.003000, highest table value = 0.133000, value = 0.002728 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port B1 on cell ctmi_2155 for parameter Tinp. Lowest table value = 0.003000, highest table value = 0.133000, value = 0.002937 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port X on cell ctmi_2155 for parameter Tinp. Lowest table value = 0.003000, highest table value = 0.133000, value = 0.002937 (POW-046)
+Warning: Power table extrapolation (extrapolation mode) for port A2 on cell ctmi_2157 for parameter Tinp. Lowest table value = 0.003000, highest table value = 0.133000, value = 0.002270 (POW-046)
 Note - message 'POW-046' limit (10) exceeded. Remainder will be suppressed.
 
   Cell Internal Power    = 9.24e+07 pW ( 79.1%)
